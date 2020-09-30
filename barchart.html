@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lab 3 SVG & D3</title>
+
+    <!-- Load CSS files -->
+    
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+   
+    <!-- Load Javascript files -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.1.1/d3.min.js"></script>
+
+    <!-- Your code -->
+    <script defer src="bar.js"></script>
+    
+  </head>
+  <body>
+    <div class="container">
+        <h1>
+            World's Tallest Buildings
+          </h1>
+
+        <div class="row">
+          <div class="height-plot"></div>
+          
+        <div class="column">
+            <img class="image"/><div id="image"></div>
+        </div>
+        <div class="column">
+          <h4 class="building-name"><div id="building-name"></div></h4>
+          <table>
+            <tbody>
+              <tr>
+                <td>Height</td>
+                <td><span class="height"></span><div id="height"></div> ft</td>
+              </tr>
+              <tr>
+                <td>City</td>
+                <td><span class="city"></span><div id="city"></div></td>
+              </tr>
+              <tr>
+                <td>Country</td>
+                <td><span class="country"><div id="country"></div></span></td>
+              </tr>
+              <tr>
+                <td>floors</td>
+                <td><span class="floors"><div id="floors"></div></span></td>
+              </tr>
+              <tr>
+                <td>Completed</td>
+                <td><span class="completed"><div id="completed"></div></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+
+
+  </body>
+</html>
